@@ -29,8 +29,8 @@ pip install fastapi uvicorn
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/idm-compatible-download-server.git
-cd idm-compatible-download-server
+git clone https://github.com/ItzAmirreza/fastapi-download-server.git
+cd fastapi-download-server
 ```
 
 ### Usage
@@ -38,7 +38,7 @@ cd idm-compatible-download-server
 Start the server by running:
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
+uvicorn download:app --host 0.0.0.0 --port 8000
 ```
 
 Now, your server is ready to handle download requests. Navigate to:
